@@ -11,135 +11,177 @@
         <!-- Enlace a la fuente Playfair Display -->
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     </head>
-</head>
+
 
 
 <body style="background: linear-gradient(to right,  rgb(85, 11, 221), rgb(2, 204, 255));font-family:'Playfair Display', serif;">
   <div style="background: linear-gradient(to right, rgb(85, 11, 221), rgb(2, 204, 255))">    
-  <!--Barra de navegación y menú-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary; sticky-top" style="background-color: rgb(61, 53, 53); color:aliceblue">
+  
+   <!--Barra de navegación y menú-->
+   <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" style="background-color: rgb(61, 53, 53); color: aliceblue; font-size: 1vw;">
     <div class="container-fluid">
-      <img src="IMG/LogoIcono.ico" style="width: 100px; height: 80px; border-top-left-radius: 20px; border-bottom-left-radius: 20px;" onclick="window.location.href='index.html'">
-      <img src="IMG/LogoUICONO.ico" style="width: 125px;height: 80px; border-top-right-radius: 20px; border-bottom-right-radius: 20px;" onclick="window.location.href='index.html'">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" style="margin-left: 1.5cm; font-family: 'Playfair Display', serif; color: rgb(5, 142, 255);" href="Introducción.html"><strong>Introducción</strong></a>
-        </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: 1.5cm; font-family: 'Playfair Display', serif;color: aliceblue;"onmouseover="this.style.backgroundColor='black'" onmouseout="this.style.backgroundColor=''">
-              <strong>Profundización</strong>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="Profundización.html" style="font-family: 'Playfair Display', serif;">Propósito </a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Profundización.html" style="font-family: 'Playfair Display', serif;">Justificación</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Profundización.html" style="font-family: 'Playfair Display', serif;">Logo</a></li>
-            </ul>
-          </li>
-          <!--Segundo link--> 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: 1.5cm; font-family: 'Playfair Display', serif; color: aliceblue;"onmouseover="this.style.backgroundColor='black'" onmouseout="this.style.backgroundColor=''">
-                <strong>Objetivos</strong>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="Objetivos.html" style="font-family:'Playfair Display', serif;">Objetivo general</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Objetivos.html" style="font-family:'Playfair Display', serif;">Objetivos específicos</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Objetivos.html" style="font-family: 'Playfair Display', serif;">Documentación académica</a></li>
-            </ul>
-          </li>
-          <!--Desarrollo-->
-          <li class="nav-item"></li>
-            <a class="nav-link active" aria-current="page" style="margin-left: 1.5cm; font-family: 'Playfair Display', serif; color: aliceblue;" href="Desarrollo.html"><strong>Desarrollo</strong></a>
-        </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-          </li>
+        <img src="IMG/LogoIcono.ico" style="width: 80px; height: 60px; border-top-left-radius: 20px; border-bottom-left-radius: 20px;" onclick="window.location.href='index.html'">
+        <img src="IMG/LogoUICONO.ico" style="width: 100px; height: 60px; border-top-right-radius: 20px; border-bottom-right-radius: 20px;" onclick="window.location.href='index.html'">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" style="margin-left: 1.5cm; font-family: 'Playfair Display', serif; color: rgb(5, 142, 255);" href="Introducción.html"><strong>Introducción</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
 
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
-          <button style="border-color: rgb(5, 142, 255);color:rgb(5, 142, 255);outline-color: none;box-shadow: none" class="btn btn-outline-success" type="submit" onmouseover="this.style.backgroundColor='black'" onmouseout="this.style.backgroundColor=''">Buscar</button>
-        </form>
-      </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: 1.5cm; font-family: 'Playfair Display', serif; color: aliceblue;" onmouseover="this.style.backgroundColor='black'" onmouseout="this.style.backgroundColor=''">
+                        <strong>Profundización</strong>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Profundización.html" style="font-family: 'Playfair Display', serif;">Propósito</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="Profundización.html" style="font-family: 'Playfair Display', serif;">Justificación</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="Profundización.html" style="font-family: 'Playfair Display', serif;">Logo</a></li>
+                    </ul>
+                </li>
+
+                <!--Objetivos-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: 1.5cm; font-family: 'Playfair Display', serif; color: aliceblue;" onmouseover="this.style.backgroundColor='black'" onmouseout="this.style.backgroundColor=''">
+                    <strong>Objetivos</strong>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Objetivos.html" style="font-family: 'Playfair Display', serif;">Objetivo general</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="Objetivos.html" style="font-family: 'Playfair Display', serif;">Objetivos específicos</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="Objetivos.html" style="font-family: 'Playfair Display', serif;">Documentación académica</a></li>
+                  </ul>
+                </li>
+
+                <!--Desarrollo-->
+                <li class="nav-item"></li>
+                <a class="nav-link active" aria-current="page" style="margin-left: 1.5cm; font-family: 'Playfair Display', serif; color: aliceblue;" href="Desarrollo.html"><strong>Desarrollo</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+
+            </ul>
+            <a style= "margin-left: 1.5cm;margin-right: 0.5cm; font-family: 'Playfair Display', serif; color: aliceblue;"><strong>Guía</strong></a>           
+              <audio controls style="width: 7cm; margin-bottom: 10px; border-radius: 5px;">
+              <source src="AUD/Grabación guia.mp3" type="audio/mpeg">
+          </audio>
+        </div>
     </div>
-  </nav>
+</nav>
   
   <!--INTRODUCCIÓN-->
-    <div style="margin: auto;" id="vuelve1">
-      <p style="background-color:rgb(8, 8, 114), rgb(2, 204, 255);color: transparent">borrador</p>
-      <p style="background-color:rgb(8, 8, 114), rgb(2, 204, 255);color: transparent">borrador</p>
-      <h4 class="mx-5" style="font-size: xxx-large;text-align: center;font-family: 'Playfair Display', serif;color:aliceblue;padding-bottom: 1cm;">Introducción</h4>
-      
-      <img src="IMG/dron-introduccion.png" style="float: left; width: 400px; margin-left: 5cm; margin-right: 2cm; margin-top: 1cm; border-radius: 15px;">
-
-      <p  style="font-size: x-large; text-align: justify; font-family: 'Playfair Display', serif; color:aliceblue; margin-top: 3cm; margin-left: 2cm; margin-right: 5cm; padding-bottom: 0,5cm">
-        En la actualidad acceder a servicios de medicina es un desafío significativo para las poblaciones que viven en zonas de difícil acceso, las condiciones de infraestructura, limitaciones geográficas, edad avanzada de los pacientes, entre otras circunstancias complican significativamente la entrega de suministros médicos.
-      </p>
-      <p  style="font-size: x-large; text-align: justify; font-family: 'Playfair Display', serif; color: aliceblue; margin-top: 1cm; margin-left: 2cm; margin-right: 5cm; padding-bottom: 2cm;">Frente a esta problemática este proyecto busca de manera innovadora fabricar un Dron que permita beneficiar y solucionar la entrega de medicamentos con un peso aproximado de 150g.
-      </p>
-
-      <p id="vuelve2" style="background-color:rgb(8, 8, 114), rgb(2, 204, 255);color: transparent;">borrador</p>
-      <p style="background-color:rgb(8, 8, 114), rgb(2, 204, 255);color: transparent; padding-bottom: 0.5cm;">borrador</p>
-
+  <div style="margin: auto;" id="vuelve1">
+    <p style="background-color:rgb(8, 8, 114), rgb(2, 204, 255);color: transparent">borrador</p>
+    <p style="background-color:rgb(8, 8, 114), rgb(2, 204, 255);color: transparent">borrador</p>
+    
+    <!-- Contenedor de imagen y audio -->
+    <div style="float: left; width: 320px; margin-left: 5cm; margin-right: 2cm; margin-top: 1cm;">
+        <!-- Reproductor de audio -->
+        <audio controls style="width: 100%; margin-bottom: 10px; border-radius: 5px;">
+            <source src="AUD/Grabación intro.mp3" type="audio/mpeg">
+        </audio>
+        <!-- Imagen -->
+        <img src="IMG/dron-introduccion.png" style="width: 100%; border-radius: 15px;">
     </div>
 
-  <div>
+    <!-- Texto ajustado cerca de la imagen -->
+    <div style="margin-left: calc(5cm + 320px + 2cm); margin-right: 3cm; margin-top: 2cm;">
+      <h4 class="mx-5" style="font-size: 2.7vw;text-align: center;font-family: 'Playfair Display', serif;color:aliceblue;padding-bottom: 1cm;">Introducción</h4>
+        <p style="font-size: large; text-align: justify; font-family: 'Playfair Display', serif; color: aliceblue;">
+            En la actualidad acceder a servicios de medicina es un desafío significativo para las poblaciones que viven en zonas de difícil acceso, las condiciones de infraestructura, limitaciones geográficas, edad avanzada de los pacientes, entre otras circunstancias complican significativamente la entrega de suministros médicos.
+        </p>
+        <p style="font-size: large; text-align: justify; font-family: 'Playfair Display', serif; color: aliceblue; margin-top: 1cm;">
+            Frente a esta problemática este proyecto busca de manera innovadora fabricar un dron que permita beneficiar y solucionar la entrega de medicamentos con un peso aproximado de 150g.
+        </p>
+    </div>
+
+    <p id="vuelve2" style="background-color:rgb(8, 8, 114), rgb(2, 204, 255);color: transparent;">borrador</p>
+    <p style="background-color:rgb(8, 8, 114), rgb(2, 204, 255);color: transparent; padding-bottom: 0.5cm;">borrador</p>
+  </div>
+
+  
     <!--MARCO TEORICO-->
     
     <div style="background: linear-gradient(to right, rgb(85, 11, 221), rgb(2, 204, 255))">  
       
       <p style="background-color:rgb(8, 8, 114), rgb(2, 204, 255) ;color: transparent">borrador</p>
-      <h4 class="mx-5" style="font-size: xxx-large;text-align: center;font-family: 'Playfair Display', serif;margin-top: 0.5cm;color: aliceblue;">Marco Teórico</h4>
-      <div class="container text-center" style="background: linear-gradient(to left, rgb(255, 255, 255), rgb(223, 221, 221));margin-top: 1cm; border-radius: 15px;">
+      <h4 class="mx-5" style="font-size: 2.7vw;text-align: center;font-family: 'Playfair Display', serif;margin-top: 0.5cm;color: aliceblue;">Marco Teórico</h4>
+      
+      <div class="container text-center" style="background: linear-gradient(to left, rgb(235, 246, 255), rgb(207, 226, 243)); margin-top: 1cm; border-radius: 15px; padding: 15px; max-width: 70%; margin-left: auto; margin-right: auto;">
         <div class="row">
-          <div style="font-size: x-large;text-align: center;font-family: 'Playfair Display', serif;padding-bottom: 1cm;padding-top: 1cm;" class="col">Para fabricar un drone que tenga la capacidad de trasportar hasta 150 g de peso en medicamentos se requiere de una planificación detallada teniendo en cuenta aspectos como:</div>
-          <footer class="blockquote-footer" style="font-size: large;font-family: 'Playfair Display', serif;">Capacidad de carga: hasta 150g.</footer>
-          <footer class="blockquote-footer" style="font-size: large;font-family: 'Playfair Display', serif;">Autonomía de vuelo: Entre 15 minutos y 30 minutos.</footer>
-          <footer class="blockquote-footer" style="font-size: large;font-family: 'Playfair Display', serif;">Sistema de navegación: debe incluir por lo menos dos sistemas de navegación, GPS, GLONASS BEIDOU.</footer>
-          <footer class="blockquote-footer" style="font-size: large;font-family: 'Playfair Display', serif;">Materiales chasis: Utilizar materiales ligeros y resistentes como la fibra de carbono.</footer>
-          <footer class="blockquote-footer" style="font-size: large;font-family: 'Playfair Display', serif;">Baterías: baterías de litio con una capacidad de capacidad de 2000 mAh.</footer>  
-          <footer class="blockquote-footer" style="font-size: large;font-family: 'Playfair Display', serif;">Hélices: Para la construcción de este drone hemos escogido hélices de 4 aspas debido a su mayor capacidad de empuje.</footer>  
-          <footer class="blockquote-footer" style="font-size: large;font-family: 'Playfair Display', serif;">Controlador de vuelo: Es el cerebro de todo drone, controla la velocidad de los motores, el escogido inicialmente por precio, es la referencia a F3 Flight Controller Acro 6 DOF, su precio promedio es de 23 USD.</footer>  
-          <footer class="blockquote-footer" style="padding-bottom: 1cm;font-size: large;font-family: 'Playfair Display', serif;">Motores sin escobillas: Son los que más proporcionan empuje y eficiencia y menor mantenimiento. </footer>  
-          </div>
-      </div>
+            <div style="font-size: 1.2rem; text-align: justify; font-family: 'Playfair Display', serif; padding: 15px;" class="col">
+                Para fabricar un dron que tenga la capacidad de transportar hasta 150 g de peso en medicamentos se requiere de una planificación detallada teniendo en cuenta aspectos como:
+            </div>
+            <ul style="font-size: 1rem; font-family: 'Playfair Display', serif; color: rgb(60, 60, 60); text-align: left; padding-left: 30px; margin: 0;">
+                <li style="margin-bottom: 10px;">Capacidad de carga: hasta 150g.</li>
+                <li style="margin-bottom: 10px;">Autonomía de vuelo: Entre 15 minutos y 30 minutos.</li>
+                <li style="margin-bottom: 10px;">Sistema de navegación: debe incluir por lo menos dos sistemas de navegación, GPS, GLONASS, BEIDOU.</li>
+                <li style="margin-bottom: 10px;">Materiales chasis: Utilizar materiales ligeros y resistentes como la fibra de carbono.</li>
+                <li style="margin-bottom: 10px;">Baterías: baterías de litio con una capacidad de 2000 mAh.</li>
+                <li style="margin-bottom: 10px;">Hélices: Para la construcción de este drone hemos escogido hélices de 4 aspas debido a su mayor capacidad de empuje.</li>
+                <li style="margin-bottom: 10px;">Controlador de vuelo: Es el cerebro de todo drone. El escogido inicialmente por precio, es la referencia F3 Flight Controller Acro 6 DOF (23 USD).</li>
+                <li style="margin-bottom: 10px;">Motores sin escobillas: Son los que más proporcionan empuje y eficiencia y requieren menor mantenimiento.</li>
+            </ul>
+        </div>
+    </div>
   
 
 <!--INTEGRANTES-->
+
+
+    <!--Prueba tarjetas-->
+    <h1 style="text-align: center; color: white; margin-top: 3cm; font-size: 2.7vw;">Integrantes</h1>
+
+    <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; margin-top: 50px;">
+      <!-- Tarjeta 1 -->
+      <div style="background-color: white; border-radius: 15px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2); width: 300px; text-align: center;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" alt="Perfil Alejandro" style="width: 100px; height: 100px; margin-top: 20px;">
+          <div style="padding: 20px; background: linear-gradient(to top, #ff4a00, #ffd9d0); border-radius: 0 0 15px 15px;">
+              <h3 style="color: white;">Alejandro Ibáñez Rincón</h3>
+              <p style="color: white;">Est. Tec. Automatización Industrial</p>
+              <p style="color: white;">¡Hola!, soy Alejandro, estudiante 2024-1, estoy desarrollando este proyecto junto a mi compañero líder; siento pasión por el servicio a poblaciones con dificultades y este proyecto es la mejor forma de contribuir debido a su contexto y propósito.</p>
+          </div>
+      </div>
   
-    <h1 style="text-align: center; color: white; margin-top: 3cm;font-size: xxx-large;">Integrantes</h1>
+      <!-- Contenedor de los reproductores de audio -->
+      <div style="text-align: center; display: flex; flex-direction: column; gap: 20px;">
+          <!-- Espacio para el reproductor de audio de Alejandro con título -->
+          <div style="padding-top: 2cm;">
+              <p style="color: aliceblue">Presentación de Alejandro</p>
+              <audio controls style="background: linear-gradient(to top, #ff4a00, #ffd9d0); border-radius: 15px; padding: 10px; width: 300px;">
+                  <source src="AUD/Presentación Alejandro.m4a" type="audio/mpeg">
+              </audio>
+          </div>
+  
+          <!-- Espacio para el reproductor de audio de Juan Carlo con título -->
+          <div>
+              <p style="color: aliceblue">Presentación de Juan</p>
+              <audio controls style="background: linear-gradient(to top, #0000ff, #00d4ff); border-radius: 15px; padding: 10px; width: 300px;">
+                  <source src="AUD/Introduccion.m4a" type="audio/mpeg">
+              </audio>
+          </div>
+      </div>
+  
+      <!-- Tarjeta 2 -->
+      <div style="background-color: white; border-radius: 15px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2); width: 300px; text-align: center;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" alt="Perfil Juan Carlo" style="width: 100px; height: 100px; margin-top: 20px;">
+          <div style="padding: 20px; background: linear-gradient(to top, #0000ff, #00d4ff); border-radius: 0 0 15px 15px;">
+              <h3 style="color: white;">Juan Carlo Ferreira</h3>
+              <p style="color: white;">Est. Tec. Automatización Industrial</p>
+              <p style="color: white;">¡Hola!, soy Juan, estudiante 2024-1. Mi pasión por los drones y el fascinante mundo de la neumática me ha llevado a embarcarme en el desarrollo de un dron diseñado específicamente para transportar medicamentos a lugares de difícil acceso, con el objetivo de mejorar la logística en situaciones de emergencia y facilitar la atención médica en zonas remotas.</p>
+          </div>
+      </div>
+  </div>
 
-    <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 50px;">
-        <!-- Tarjeta 1 -->
-        <div style="background-color: white; border-radius: 15px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2); width: 300px; text-align: center;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" alt="Perfil Alejandro" style="width: 100px; height: 100px; margin-top: 20px;">
-            <div style="padding: 20px; background: linear-gradient(to top, #ff4a00, #ffd9d0); border-radius: 0 0 15px 15px;">
-                <h3 style="color: white;">Alejandro Ibáñez Rincón</h3>
-                <p style="color: white;">Est. Tec. Automatización Industrial</p>
-                <p style="color: white;">¡Hola!, soy Alejandro, estudiante 2024-1, estoy desarrollando este proyecto junto a mi compañero líder porque su propósito captó mi atención. Let's get it!</p>
-            </div>
-        </div>
-
-        <!-- Tarjeta 2 -->
-        <div style="background-color: white; border-radius: 15px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2); width: 300px; text-align: center;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" alt="Perfil Juan Carlo" style="width: 100px; height: 100px; margin-top: 20px;">
-            <div style="padding: 20px; background: linear-gradient(to top, #0000ff, #00d4ff); border-radius: 0 0 15px 15px;">
-                <h3 style="color: white;">Juan Carlo Ferreira</h3>
-                <p style="color: white;">Est. Tec. Automatización Industrial</p>
-                <p style="color: white;">¡Hola!, soy Juan, estudiante 2024-1. Mi pasión por los drones y el fascinante mundo de la neumática me ha llevado a embarcarme en este proyecto innovador. ¡Acompañanos en esta gran aventura!.</p>
-            </div>
-        </div>
-    </div>
 
 
     <!--Vuelve Inicio-->
